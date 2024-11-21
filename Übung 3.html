@@ -1,0 +1,22 @@
+	<!Doctype html>
+	<html lang="de-de">
+	<head>
+	    <meta charset="utf-8"/>
+	    <meta name="=viewport" content="width=device-width, initial-scale=1.0"/>
+	    <title>Formular Übung</title>
+	</head>
+	<body>
+    <h2>Anmeldeformular</h2>
+	<form action="anmelden.php">
+		Name: <input type="text" name="Name" maxlength="15" autocomplete="on" placeholder="Dein Name"><br>
+		Alter: <input type="number" min="12" max="120" placeholder="Alter"><br>
+		E-Mail: <input type="email" name="Email" minlength="8" autocomplete="off" placeholder="Deine E-Mail"><br>
+		<br><strong>Bevorzugtes Reisemittel:</strong><br>
+		<br><input type="radio" name="Option1" value="schiff" checked> <i>Schiff</i><br>
+		<input type="radio" name="Option1" value="zug"> <i>Zug</i><br>
+		<input type="radio" name="Option1" value="auto"> <i>Auto</i><br>
+		<input type="radio" name="Option1" value="flugzeug"> <i>Flugzeug</i><br>
+		<br><input type="submit" name="anmelden" Value="Anmelden"><br>
+	</form>
+	</body>
+</html>
